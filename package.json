@@ -1,15 +1,20 @@
 {
   "name": "aws-query",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "tool for managing queries and mutations with the AWS SDK and react-query",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-packages": "npm run build --workspaces --if-present",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "query"
+  ],
+  "author": {
+    "name": "Alex Frazer",
+    "email": "frazer@alexfrazer.dev"
+  },
   "license": "ISC",
   "devDependencies": {
     "@tanstack/react-query": "^5.8.1",
