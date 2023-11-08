@@ -1,0 +1,19 @@
+{
+  "name": "@aws-query/provider",
+  "version": "0.0.1",
+  "description": "Provider for AWS queries and mutations",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "browser": "./dist/index.global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tiny-invariant": "^1.3.1"
+  }
+}

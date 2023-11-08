@@ -1,0 +1,26 @@
+{
+  "name": "@aws-query/s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "browser": "./dist/index.global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup --env.NODE_ENV production",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": {
+    "email": "alexfrazer@alexfrazer.dev",
+    "name": "Alex Frazer"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@aws-query/provider": "*"
+  },
+  "peerDependencies": {
+    "@aws-query/provider": "*"
+  }
+}
